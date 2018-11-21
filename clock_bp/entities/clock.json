@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0-beta.1",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "tutorial:clock",
+			"minecraft:spawn_egg": {
+				"value": true
+			},
+			"minecraft:is_summonable": {
+				"value": true
+			},
+			"minecraft:is_experimental": {
+				"value": true
+			}
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true
+			}
+		}
+	}
+}

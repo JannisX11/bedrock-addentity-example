@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0-beta.1",
+	"animations": {
+		"animations.clock.spin": {
+			"loop": true,
+			"bones": {
+				"hand": {
+					"rotation": ["Math.floor(Params.AnimTime)*6", 0, 0]
+				}
+			}
+		}
+	}
+}

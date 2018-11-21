@@ -1,0 +1,18 @@
+		{
+			"format_version": 1,
+			"header": {
+				"description": "Clock",
+				"name": "Clock",
+				"uuid": "21d49a80-e41e-4128-ad4e-0d26613e6391",
+				"version": [1, 8, 0],
+				"min_engine_version": [1, 8, 0]
+			},
+			"modules": [
+				{
+					"description": "",
+					"type": "data",
+					"uuid": "ff31aecc-f74e-4f0d-a6d1-5919e3ffc763",
+					"version": [1, 8, 0]
+				}
+			]
+		}
