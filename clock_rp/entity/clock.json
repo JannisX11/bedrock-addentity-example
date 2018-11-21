@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0-beta.1",
+	"format_version": "1.8.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "tutorial:clock",
@@ -20,7 +20,7 @@
 				"default": "entity"
 			},
 			"animations": {
-				"spin": "animations.clock.spin"
+				"spin": "animation.clock.spin"
 			},
 			"animation_controllers": [
 				{
