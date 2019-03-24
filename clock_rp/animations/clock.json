@@ -1,11 +1,11 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"animations": {
 		"animation.clock.spin": {
 			"loop": true,
 			"bones": {
 				"hand": {
-					"rotation": ["Math.floor(global.anim_time)*6", 0.0, 0.0]
+					"rotation": ["Math.floor(query.anim_time)*6", 0.0, 0.0]
 				}
 			}
 		}
