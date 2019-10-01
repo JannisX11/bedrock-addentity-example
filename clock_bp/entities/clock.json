@@ -5,12 +5,10 @@
 			"identifier": "tutorial:clock",
 			"is_spawnable": true,
 			"is_summonable": true,
-			"is_experimental": true
+			"is_experimental": false
 		},
 		"components": {
-			"minecraft:physics": {
-				"has_gravity": true
-			}
+			"minecraft:physics": {}
 		}
 	}
 }

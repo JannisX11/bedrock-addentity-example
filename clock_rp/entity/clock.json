@@ -1,5 +1,5 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "tutorial:clock",
@@ -8,7 +8,7 @@
 				"overlay_color": "#282c2e"
 			},
 			"render_controllers": [
-				"controller.render.clock"
+				"controller.render.default"
 			],
 			"geometry": {
 				"default": "geometry.clock"
@@ -22,11 +22,11 @@
 			"animations": {
 				"spin": "animation.clock.spin"
 			},
-			"animation_controllers": [
-				{
-					"always": "controller.animation.clock.always"
-				}
-			]
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
 		}
 	}
 }
